@@ -1,0 +1,15 @@
+.container {
+    width: 100%;
+    margin: 5rem 0;
+}
+
+.postInstagram {
+    border: 1px solid grey;
+    text-align: center;
+    width: 20rem;
+    height: 16rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}

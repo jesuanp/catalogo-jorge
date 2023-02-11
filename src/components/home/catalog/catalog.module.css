@@ -1,0 +1,28 @@
+.container {
+    width: 100%;
+    margin: 5rem 0;
+}
+
+.catalog {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+}
+
+.divImg {
+    overflow: hidden;
+    width: 10rem;
+    height: 6rem;
+    /* object-fit: contain; */
+}
+
+.img {
+    width: 100%;
+    transition: all 0.3s;
+}
+
+.img:hover {
+    transform: scale(1.3);
+}
