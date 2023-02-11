@@ -1,9 +1,35 @@
 .container {
     width: 100%;
     margin: 17rem 0 5rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .container div {
     padding: 0 1rem 0 1rem;
     text-align: center;
+}
+
+.divVideo {
+    margin-top: 5rem;
+    height: 20rem;
+    width: 38rem;
+    border: 1px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 720px){
+    .divVideo {
+        width: 80%;
+    }
+}
+
+@media (max-width: 530px){
+    .divVideo {
+        height: 10rem;
+    }
 }

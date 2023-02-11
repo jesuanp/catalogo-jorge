@@ -1,5 +1,6 @@
 import React from "react";
 import s from './news.module.css';
+import image2 from '../../../images/image-robot-2.jpeg';
 
 export default function News() {
 
@@ -9,7 +10,7 @@ export default function News() {
             <h2 style={{textAlign: 'center'}}>News</h2>
 
             <div className={s.postInstagram}>
-                feed de ig
+                <img className={s.img} src={image2} alt='imagen de feed de instagram' />
             </div>
         </div>
     )
