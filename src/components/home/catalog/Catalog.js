@@ -1,5 +1,6 @@
 import React from "react";
 import s from './catalog.module.css';
+import {NavLink} from 'react-router-dom';
 import image2 from '../../../images/image-robot-2.jpeg';
 import image3 from '../../../images/image-robot-3.jpeg';
 import image4 from '../../../images/image-robot-4.jpeg';
@@ -14,29 +15,45 @@ export default function Catalog() {
         <>
             <div className={s.container}>
                 <div className={s.carrousel}>
-                    <div className={s.divImg}>
-                        <img className={s.img} src={image2} alt='imagen del proyecto' />
-                    </div>
-                    <div className={s.divImg}>
-                        <img className={s.img} src={image3} alt='imagen del proyecto' />
-                    </div>
-                    <div className={s.divImg}>
-                        <img className={s.img} src={image4} alt='imagen del proyecto' />
-                    </div>
+                    <NavLink to='/projects'>
+                        <div className={s.divImg}>
+                            <img className={s.img} src={image2} alt='imagen del proyecto' />
+                        </div>
+                    </NavLink>
+
+                    <NavLink to='/projects'>
+                        <div className={s.divImg}>
+                            <img className={s.img} src={image3} alt='imagen del proyecto' />
+                        </div>
+                    </NavLink>
+
+                    <NavLink to='/projects'>
+                        <div className={s.divImg}>
+                            <img className={s.img} src={image4} alt='imagen del proyecto' />
+                        </div>
+                    </NavLink>
                 </div>
             </div>
 
             <div className={s.container}>
                 <div className={s.carrousel}>
-                    <div className={s.divImg}>
-                        <img className={s.img} src={image5} alt='imagen del proyecto' />
-                    </div>
-                    <div className={s.divImg}>
-                        <img className={s.img} src={image6} alt='imagen del proyecto' />
-                    </div>
-                    <div className={s.divImg}>
-                        <img className={s.img} src={image7} alt='imagen del proyecto' />
-                    </div>
+                    <NavLink to='/projects'>
+                        <div className={s.divImg}>
+                            <img className={s.img} src={image5} alt='imagen del proyecto' />
+                        </div>
+                    </NavLink>
+
+                    <NavLink to='/projects'>
+                        <div className={s.divImg}>
+                            <img className={s.img} src={image6} alt='imagen del proyecto' />
+                        </div>
+                    </NavLink>
+
+                    <NavLink to='/projects'>
+                        <div className={s.divImg}>
+                            <img className={s.img} src={image7} alt='imagen del proyecto' />
+                        </div>
+                    </NavLink>
                 </div>
             </div>
         </>
