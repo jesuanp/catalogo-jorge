@@ -12,6 +12,8 @@
     align-items: center;
     overflow: auto;
     gap: 3rem;
+    padding: 0 1.8rem 0 1.8rem;
+
 }
 
 .carrousel::-webkit-scrollbar {

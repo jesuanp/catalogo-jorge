@@ -3,6 +3,7 @@ import Home from './components/home/Home';
 import NavBar from './components/navBar/NavBar';
 import Projects from './components/projects/Projects';
 import Project from './components/project/Project';
+import Footer from './components/footer/Footer';
 
 function App() {
   return (
@@ -18,6 +19,8 @@ function App() {
         <Route path='/Project' element={<Project />} />
 
       </Routes>
+
+      <Footer />
     </>
   );
 }
