@@ -7,7 +7,7 @@ export default function News() {
     return (
         <div className={s.container}>
 
-            <h2 style={{textAlign: 'center'}}>News</h2>
+            <h2 style={{textAlign: 'center'}}>NEWS</h2>
 
             <div className={s.postInstagram}>
                 <img className={s.img} src={image8} alt='imagen de feed de instagram' />

@@ -10,7 +10,7 @@ export default function Footer() {
     return (
         <div className={s.container}>
             <div>
-                <h2 style={{textAlign: 'center'}}>ContactUs</h2>
+                <h2 style={{textAlign: 'center'}}>CONTACT US</h2>
 
                 <p style={{textAlign: 'center'}}>
                     Lorem laboris sint ex ex minim voluptate incididunt ea ut culpa voluptate. Cupidatat aliqua eiusmod et id adipisicing.
