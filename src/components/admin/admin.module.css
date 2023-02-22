@@ -48,6 +48,30 @@
     opacity: 0.5;
 }
 
+.input {
+    padding: 0.7rem;
+    outline: none;
+    border-radius: 2rem;
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #fff;
+}
+
+.btn {
+    border: none;
+    background-color: rgb(72, 202, 128);
+    padding: 0.8rem 1.2rem;
+    border-radius: 1rem;
+    color: #fff;
+    margin: 1rem auto auto auto;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 
 @media (max-width: 600px) {
     .card {

@@ -1,6 +1,7 @@
 import React from 'react';
 import { auth } from '../../config/axios';
 import { useNavigate } from 'react-router-dom';
+import s from './admin.module.css';
 
 export default function Auth() {
 
@@ -27,11 +28,11 @@ export default function Auth() {
 
     return (
         <div>
-            <h1>Auth</h1>
+            <h1 style={{textAlign: 'center'}}>Auth</h1>
 
-            <form onSubmit={handleSubmit}>
-                <input onChange={handleChange} type='password' placeholder='password...' />
-                <button type='submit' >Enviar</button>
+            <form className={s.form} onSubmit={handleSubmit}>
+                <input className={s.input} onChange={handleChange} type='password' placeholder='password...' />
+                <button className={s.btn} type='submit' >Enviar</button>
             </form>
         </div>
     )
