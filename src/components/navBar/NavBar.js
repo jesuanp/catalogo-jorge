@@ -24,7 +24,7 @@ export default function NavBar() {
                     && <ul className={s.ulNav}>
                         <NavLink className={s.navLink} to='/'><li onClick={() => setShowMenu(false)}>HOME</li></NavLink>
                         <li>ABOUT US</li>
-                        <li>CATALOG</li>
+                        <li>CATALOGUE</li>
                         <li>NEWS</li>
                         <li>CANTACT</li>
                     </ul>

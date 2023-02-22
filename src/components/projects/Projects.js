@@ -18,7 +18,7 @@ export default function Projects() {
 
     return (
         <div className={s.container}>
-            <h2 style={{textAlign: 'center'}}>CATALOG</h2>
+            <h2 style={{textAlign: 'center'}}>CATALOGUE</h2>
 
             <div className={s.projects}>
 
