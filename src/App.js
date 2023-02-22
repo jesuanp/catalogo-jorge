@@ -4,23 +4,42 @@ import NavBar from './components/navBar/NavBar';
 import Projects from './components/projects/Projects';
 import Project from './components/project/Project';
 import Footer from './components/footer/Footer';
+import Admin from './components/admin/Admin';
+import Auth from './components/admin/Auth';
 
 function App() {
   return (
     <>
-      <NavBar />
-
       <Routes>
 
-        <Route path='/' element={<Home />} />
+        <Route path='/' element={
+          <>
+            <NavBar />
+            <Home />
+            <Footer />
+          </>
+        } />
 
-        <Route path='/projects' element={<Projects />} />
+        <Route path='/projects' element={
+          <>
+            <NavBar />
+            <Projects />
+            <Footer />
+          </>
+        } />
 
-        <Route path='/Project' element={<Project />} />
+        <Route path='/Project/:id' element={
+          <>
+            <NavBar />
+            <Project />
+            <Footer />
+          </>
+        } />
+
+        <Route path='/admin' element={<Admin />} />
+        <Route path='/auth' element={<Auth />} />
 
       </Routes>
-
-      <Footer />
     </>
   );
 }

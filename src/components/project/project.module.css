@@ -1,6 +1,6 @@
 .container {
     margin-top: 16rem;
-    margin-bottom: 5rem;
+    margin-bottom: 3rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -11,31 +11,23 @@
 }
 
 .descriptionProject {
-    margin: 0 1rem;
+    margin: 1rem 1rem 0 1rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-bottom: 2rem;
 }
 
-.divVideo {
-    margin-top: 5rem;
-    height: 20rem;
-    width: 38rem;
+.addSection {
     border: 1px solid grey;
+    border-radius: 5px;
+    width: 22rem;
+    height: 12rem;
+    color: grey;
+    cursor: pointer;
+    margin: 0 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-@media (max-width: 720px){
-    .divVideo {
-        width: 80%;
-    }
-}
-
-@media (max-width: 530px){
-    .divVideo {
-        height: 10rem;
-    }
+    flex-direction: column;
 }

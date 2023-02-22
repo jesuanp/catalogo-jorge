@@ -13,6 +13,9 @@ export default function Catalog() {
 
     return (
         <>
+
+            <h2 style={{textAlign: 'center'}}>CATALOG</h2>
+
             <div className={s.container}>
                 <div className={s.carrousel}>
                     <NavLink to='/projects'>

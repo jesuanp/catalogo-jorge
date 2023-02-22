@@ -1,0 +1,66 @@
+.container {
+    width: 100%;
+}
+
+.divImg {
+    height: 10rem;
+    min-width: 12rem;
+    overflow: hidden;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1rem;
+}
+
+.img {
+    width: 12rem;
+}
+
+.card {
+    background-color: #20262E;
+    display: flex;
+    flex-direction: row;
+    padding: 1rem 2rem;
+    justify-content: space-between;
+    margin: 2rem 0;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    margin: auto 0rem auto 1rem;
+    gap: 1rem;
+}
+
+.buttons div{
+    cursor: pointer;
+}
+
+.addProject {
+    padding: 1rem 2rem;
+    width: 10rem;
+    background-color: #20262E;
+    margin: auto;
+    cursor: pointer;
+}
+
+.addProject:hover {
+    opacity: 0.5;
+}
+
+
+@media (max-width: 600px) {
+    .card {
+    justify-content: space-between;
+    gap: 1rem;
+    flex-direction: column;
+    padding: 1rem 0rem;
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: row;
+        margin: auto 0rem auto 0rem;
+    }
+}
